@@ -15,17 +15,17 @@ class LayerView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-       for i in 0...0{
+       for i in 0...7{
             let inset = CGFloat(i * 20)
             let size = bounds.insetBy(dx: inset, dy: inset)
         
         
         
-//            let layer = CALayer()
-//            layer.cornerRadius = size.height/2
-//            layer.frame = size
-//            layer.backgroundColor = setUpColour[i]
-//            self.layer.addSublayer(layer)
+            let layer = CALayer()
+            layer.cornerRadius = size.height/2
+            layer.frame = size
+            layer.backgroundColor = setUpColour[i]
+            self.layer.addSublayer(layer)
         
             
 //        let gradientLayerForDummy = CAGradientLayer()
@@ -35,11 +35,11 @@ class LayerView: UIView {
 //        self.layer.addSublayer(gradientLayerForDummy)
 //
         
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = size
-        gradientLayer.colors = [setUpColour[0],setUpColour[1],setUpColour[2],setUpColour[3],setUpColour[4],setUpColour[5],setUpColour[6]]
-        gradientLayer.cornerRadius = size.height/2
-        self.layer.addSublayer(gradientLayer)
+//        let gradientLayer = CAGradientLayer()
+//        gradientLayer.frame = size
+//        gradientLayer.colors = [setUpColour[0],setUpColour[1],setUpColour[2],setUpColour[3],setUpColour[4],setUpColour[5],setUpColour[6]]
+//        gradientLayer.cornerRadius = size.height/2
+//        self.layer.addSublayer(gradientLayer)
             
         
 //            let view = UIView()
