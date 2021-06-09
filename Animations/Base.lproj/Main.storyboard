@@ -231,22 +231,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LJZ-la-H5S">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="LJZ-la-H5S">
                                 <rect key="frame" x="48" y="763" width="318" height="31"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
                                 <connections>
                                     <action selector="SliderValueChanged:" destination="0z9-if-da2" eventType="valueChanged" id="7lS-rG-hLb"/>
                                 </connections>
                             </slider>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SOn-ck-f1B">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SOn-ck-f1B">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="AQv-11-Lej"/>
+                                    <constraint firstAttribute="height" constant="100" id="U76-eY-OYm"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ycl-j2-u2G"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LJZ-la-H5S" firstAttribute="leading" secondItem="Ycl-j2-u2G" secondAttribute="leading" constant="50" id="G44-dE-VIG"/>
+                            <constraint firstItem="SOn-ck-f1B" firstAttribute="centerY" secondItem="arw-RM-Kie" secondAttribute="centerY" id="Ipo-SO-wdx"/>
+                            <constraint firstItem="SOn-ck-f1B" firstAttribute="centerX" secondItem="arw-RM-Kie" secondAttribute="centerX" id="Mcr-Ix-rh7"/>
                             <constraint firstItem="Ycl-j2-u2G" firstAttribute="bottom" secondItem="LJZ-la-H5S" secondAttribute="bottom" constant="20" id="S1f-Xx-AxV"/>
                             <constraint firstItem="Ycl-j2-u2G" firstAttribute="trailing" secondItem="LJZ-la-H5S" secondAttribute="trailing" constant="50" id="fT5-fQ-WHw"/>
                         </constraints>

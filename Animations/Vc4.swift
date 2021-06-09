@@ -15,19 +15,32 @@ class Vc4: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addAnimations()
+        
     }
     
 
     func addAnimations(){
-        animate.addAnimations {
-            self.mainView.backgroundColor = .red
-//            self.mainView.alpha = 0
+        animate.addAnimations { [self] in
+            mainView.backgroundColor = .red
+            mainView.transform = CGAffineTransform(scaleX: 2, y: 2)
+            mainView.layer.cornerRadius = mainView.frame.height/4
         }
+        
+        animate.addAnimations ({ [self] in
+            mainView.frame.origin.y -= 200
+        }, delayFactor: 0.5)
+        
+        animate.addAnimations ({ [self] in
+            mainView.frame.origin.y += 100
+        }, delayFactor: 0.0)
+        
+        
+        
+//        animate.isReversed = true
     }
     @IBAction func SliderValueChanged(_ sender: UISlider) {
         animate.fractionComplete = CGFloat(sender.value)
-    }
+            }
     
 }
