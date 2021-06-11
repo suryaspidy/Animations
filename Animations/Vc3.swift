@@ -28,7 +28,7 @@ class Vc3: UIViewController {
     }
     
     func decreaseSize(){
-        UIView.animate(withDuration: 5.0, delay: 0.0, options: [.repeat,.autoreverse]) { [self] in
+        UIView.animate(withDuration: 2.0, delay: 0.0, options: [.repeat,.autoreverse]) { [self] in
             mainView.transform = CGAffineTransform(scaleX: 0.3, y: 0.3)
         }
     }

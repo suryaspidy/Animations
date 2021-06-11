@@ -11,29 +11,17 @@ class Vc2: UIViewController {
 
     @IBOutlet weak var viewOne:UIView!
     @IBOutlet weak var imageArea: UIImageView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        //        colour()
-        //        rotate()
-        //        setMiddle()
-        //        finishedFunc()
-                popUpAnimation()
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        viewOne.layer.cornerRadius = 0
-        heightAnchorConstant.constant /= 2
-        widthAnchorConstant.constant /= 2
-    }
     
     @IBOutlet weak var heightAnchorConstant: NSLayoutConstraint!
     @IBOutlet weak var widthAnchorConstant: NSLayoutConstraint!
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        popUpAnimation()
+    }
+    
+
+    
     
     func colour(){
         UIView.animate(withDuration: 3.0, delay: 1.0, options: [.autoreverse,.repeat]) { [self] in
@@ -47,7 +35,7 @@ class Vc2: UIViewController {
     
     func rotate(){
         var n = 0
-        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.repeat,.autoreverse]) { [self] in
+        UIView.animate(withDuration: 1.0, delay: 0.0, options: [.repeat]) { [self] in
             viewOne.backgroundColor = backgroundColour[n]
             viewOne.transform = CGAffineTransform(rotationAngle: 300)
             n = Int.random(in: 0..<backgroundColour.count)

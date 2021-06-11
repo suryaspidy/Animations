@@ -36,8 +36,6 @@ class Vc4: UIViewController {
         }, delayFactor: 0.0)
         
         
-        
-//        animate.isReversed = true
     }
     @IBAction func SliderValueChanged(_ sender: UISlider) {
         animate.fractionComplete = CGFloat(sender.value)

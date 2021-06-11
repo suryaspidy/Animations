@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EMU-Hs-6hx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PVQ-Fv-1vh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -11,7 +11,7 @@
         <!--Vc1-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Vc1" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vc1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="Vc1" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,7 +25,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ifd-Wk-76O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8sX-DP-NCM"/>
                             <constraint firstItem="Ifd-Wk-76O" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zeR-LD-64M"/>
@@ -45,7 +45,7 @@
         <!--Vc3-->
         <scene sceneID="c9N-nR-zhv">
             <objects>
-                <viewController id="ihl-IW-oog" customClass="Vc3" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vc3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ihl-IW-oog" customClass="Vc3" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o8f-io-v8G">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +177,7 @@
         <!--Vc2-->
         <scene sceneID="hiB-kL-lOE">
             <objects>
-                <viewController id="pqv-wk-MEA" customClass="Vc2" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vc2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="pqv-wk-MEA" customClass="Vc2" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l0r-A8-Hmq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,7 +205,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E3i-k5-yyg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="H5R-Mj-DFm" firstAttribute="centerX" secondItem="l0r-A8-Hmq" secondAttribute="centerX" id="7Ai-A0-NP5"/>
                             <constraint firstItem="H5R-Mj-DFm" firstAttribute="centerY" secondItem="l0r-A8-Hmq" secondAttribute="centerY" id="B6K-Yi-nVh"/>
@@ -221,12 +221,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3r-e8-SYl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2333" y="-822"/>
+            <point key="canvasLocation" x="-2333.3333333333335" y="-822.32142857142856"/>
         </scene>
         <!--Vc4-->
         <scene sceneID="ZJd-tb-enF">
             <objects>
-                <viewController id="0z9-if-da2" customClass="Vc4" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Vc4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0z9-if-da2" customClass="Vc4" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="arw-RM-Kie">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -248,7 +248,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ycl-j2-u2G"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="LJZ-la-H5S" firstAttribute="leading" secondItem="Ycl-j2-u2G" secondAttribute="leading" constant="50" id="G44-dE-VIG"/>
                             <constraint firstItem="SOn-ck-f1B" firstAttribute="centerY" secondItem="arw-RM-Kie" secondAttribute="centerY" id="Ipo-SO-wdx"/>
@@ -265,7 +265,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vV9-eo-lLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1280" y="-822"/>
+            <point key="canvasLocation" x="1157" y="-822"/>
+        </scene>
+        <!--Vc5-->
+        <scene sceneID="EKU-WQ-fLq">
+            <objects>
+                <viewController storyboardIdentifier="Vc5" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JaZ-OQ-Q10" customClass="Vc5" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7aj-nl-Ul6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Tbz-WJ-72m"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zf4-bv-Cu2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyx-4x-tcS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2171" y="-822"/>
         </scene>
         <!--Item-->
         <scene sceneID="00j-hv-gPE">
@@ -286,6 +302,41 @@
             </objects>
             <point key="canvasLocation" x="-2333" y="-1791"/>
         </scene>
+        <!--Main Vc-->
+        <scene sceneID="Qz2-5j-N3g">
+            <objects>
+                <viewController id="PVQ-Fv-1vh" customClass="MainVc" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BVz-2e-Lnj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" directionalLockEnabled="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-G3-24G">
+                                <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="pcW-Le-khi"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7GY-0t-f6R"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" translatesAutoresizingMaskIntoConstraints="NO" id="gyo-kh-k9T">
+                                <rect key="frame" x="0.0" y="810" width="414" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="pageChanged:" destination="PVQ-Fv-1vh" eventType="valueChanged" id="gJ5-Cb-WXw"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xO2-jN-Xfc"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="gyo-kh-k9T" id="k0H-Y5-1kf"/>
+                        <outlet property="scrollView" destination="Aof-G3-24G" id="BEY-5K-yj4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JIH-yp-Q9r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-594.20289855072474" y="-3605.3571428571427"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mfv-u6-sA3">
             <objects>
@@ -300,11 +351,27 @@
                         <segue destination="b89-Bk-DUi" kind="relationship" relationship="viewControllers" id="x7j-EF-BMQ"/>
                         <segue destination="kiA-HZ-WLA" kind="relationship" relationship="viewControllers" id="N17-NI-yoF"/>
                         <segue destination="Ctk-NR-9Da" kind="relationship" relationship="viewControllers" id="UVu-bm-06F"/>
+                        <segue destination="wDg-Ps-wSC" kind="relationship" relationship="viewControllers" id="sYd-Ed-jjq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TsG-Ba-Wfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-587" y="-2604"/>
+            <point key="canvasLocation" x="22" y="-2660"/>
+        </scene>
+        <!--Vc6-->
+        <scene sceneID="hjI-P7-ArX">
+            <objects>
+                <viewController storyboardIdentifier="Vc6" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bVf-bg-gMf" customClass="Vc6" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fJE-sR-6Mq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="J8V-43-SUD"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JQy-gz-gth" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2498" y="-3283"/>
         </scene>
         <!--Item-->
         <scene sceneID="NpZ-BU-hAf">
@@ -361,15 +428,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LeC-cI-Z8O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1280" y="-1791"/>
+            <point key="canvasLocation" x="1157" y="-1791"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="u07-Oj-xas">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wDg-Ps-wSC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="G7H-jc-fBE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Obx-RS-1xy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="JaZ-OQ-Q10" kind="relationship" relationship="rootViewController" id="cHl-uh-evj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enu-Vq-IWR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2170" y="-1791"/>
         </scene>
     </scenes>
     <resources>
         <image name="gamecontroller" catalog="system" width="128" height="80"/>
         <image name="ladybug.fill" catalog="system" width="128" height="128"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

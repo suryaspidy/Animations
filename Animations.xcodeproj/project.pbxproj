@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1B1B3B2671E23B00C794A1 /* MainVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B1B3A2671E23B00C794A1 /* MainVc.swift */; };
+		2D1B1B3D267211E000C794A1 /* Vc6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B1B3C267211E000C794A1 /* Vc6.swift */; };
+		2D76C2E226708FB60000A851 /* Vc5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D76C2E126708FB60000A851 /* Vc5.swift */; };
 		2DFD6A6C266F43A800BBBD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD6A6B266F43A800BBBD68 /* AppDelegate.swift */; };
 		2DFD6A6E266F43A800BBBD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFD6A6D266F43A800BBBD68 /* SceneDelegate.swift */; };
 		2DFD6A73266F43A800BBBD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFD6A71266F43A800BBBD68 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D1B1B3A2671E23B00C794A1 /* MainVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVc.swift; sourceTree = "<group>"; };
+		2D1B1B3C267211E000C794A1 /* Vc6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vc6.swift; sourceTree = "<group>"; };
+		2D76C2E126708FB60000A851 /* Vc5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vc5.swift; sourceTree = "<group>"; };
 		2DFD6A68266F43A800BBBD68 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFD6A6B266F43A800BBBD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFD6A6D266F43A800BBBD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				2DFD6AA2266F6EA400BBBD68 /* Vc2.swift */,
 				2DFD6AA4266F88C800BBBD68 /* Vc3.swift */,
 				2DFD6AE3266FD49C00BBBD68 /* Vc4.swift */,
+				2D76C2E126708FB60000A851 /* Vc5.swift */,
+				2D1B1B3A2671E23B00C794A1 /* MainVc.swift */,
+				2D1B1B3C267211E000C794A1 /* Vc6.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -274,12 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DFD6A6C266F43A800BBBD68 /* AppDelegate.swift in Sources */,
+				2D1B1B3B2671E23B00C794A1 /* MainVc.swift in Sources */,
 				2DFD6AE4266FD49C00BBBD68 /* Vc4.swift in Sources */,
+				2D76C2E226708FB60000A851 /* Vc5.swift in Sources */,
 				2DFD6A76266F43A800BBBD68 /* Animations.xcdatamodeld in Sources */,
 				2DFD6AA1266F4C4C00BBBD68 /* LayerView.swift in Sources */,
 				2DFD6A9F266F444300BBBD68 /* Vc1.swift in Sources */,
 				2DFD6AA5266F88C800BBBD68 /* Vc3.swift in Sources */,
 				2DFD6A6E266F43A800BBBD68 /* SceneDelegate.swift in Sources */,
+				2D1B1B3D267211E000C794A1 /* Vc6.swift in Sources */,
 				2DFD6AA3266F6EA400BBBD68 /* Vc2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
